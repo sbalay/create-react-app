@@ -23,6 +23,7 @@
     "template-typescript",
     "utils"
   ],
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "bin": {
     "react-scripts": "./bin/react-scripts.js"
   },

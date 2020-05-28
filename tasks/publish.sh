@@ -48,4 +48,4 @@ if [ -z $CI ]; then
 fi
 
 # Go!
-NPM_CONFIG_OTP="$otp" ./node_modules/.bin/lerna publish "$@"
+NPM_CONFIG_OTP="$otp" ./node_modules/.bin/lerna publish "$@" --registry "https://npm.pkg.github.com/"
